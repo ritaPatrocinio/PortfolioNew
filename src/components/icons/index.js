@@ -1,0 +1,11 @@
+export { default as Redux } from "./components/Redux";
+export { default as JavaScript } from "./components/Javascript";
+export { default as React } from "./components/React";
+export { default as TypeScript } from "./components/Typescript";
+export { default as CSS } from "./components/Css";
+export { default as HTML } from "./components/Html";
+export { default as Git } from "./components/Git";
+export { default as GitHub } from "./components/Github";
+export { default as Python } from "./components/Python";
+export { default as Email } from "./components/Email";
+export { default as Linkedin } from "./components/Linkedin";
