@@ -9,3 +9,7 @@ export { default as GitHub } from "./components/Github";
 export { default as Python } from "./components/Python";
 export { default as Email } from "./components/Email";
 export { default as Linkedin } from "./components/Linkedin";
+export { default as Sun } from "./components/Sun";
+export { default as Moon } from "./components/Moon";
+export { default as Figma } from "./components/Figma";
+export { default as NextJS } from "./components/NextJS";

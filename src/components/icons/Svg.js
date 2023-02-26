@@ -11,5 +11,6 @@ const Svg = styled("svg")(
 );
 
 Svg.displayName = "Svg";
+Svg.title = "Svg"
 
 export default Svg;

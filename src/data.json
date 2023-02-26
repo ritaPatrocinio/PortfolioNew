@@ -1,0 +1,59 @@
+{
+  "description": "Hi! I'm Rita, a front-end developer. I’m proficient in web development technologies including HTML, CSS, JavaScript/ES6, ReactJS, and Git. I have strong communication skills and a good ability to communicate technical issues and solutions, as well as excellent problem-solving skills and self-motivation to prioritize and manage workload. Find some of my recent personal projects bellow!",
+  "projects": [
+    {
+      "title": "E-commerce website built with nextjs and react, using stripe to process payments!",
+      "image": "./resources/images/projects/Ecomm.png",
+      "display": "E-commerce website",
+      "url": "https://my-ecommerce-store-five.vercel.app/"
+    },
+    {
+      "title": "Pokedex app with react suspense!",
+      "image": "./resources/images/projects/pokedex.png",
+      "display": "Pokedex app with react suspense!",
+      "url": "https://react-suspense-pokedex.surge.sh/"
+    },
+    {
+      "title": "React Real-Time Messaging with GraphQL using urql and Netlify graphs.",
+      "image": "./resources/images/projects/chat.png",
+      "display": "React Real-Time Messaging",
+      "url": "https://melted-chat.surge.sh/"
+    },
+    {
+      "title": "Using redux and redux-observables to allow for request cancellation and request concurrency! Persistent configuration of page size.",
+      "image": "./resources/images/projects/Beers.png",
+      "display": "redux-observables",
+      "url": "https://beers-ro.surge.sh/"
+    },
+    {
+      "title": "Dynamic table and graph in react. Using React Data Table Component and Recharts libraries.",
+      "image": "./resources/images/projects/Graphs.PNG",
+      "display": "Dynamic table and graph in react.",
+      "url": "https://tablegraph.surge.sh/"
+    },
+    {
+      "title": "Rock Papper Scissors (Lizard Spock) game in react.",
+      "image": "./resources/images/projects/Capture.PNG",
+      "display": "Rock Papper Scissors (Lizard Spock) game in react",
+      "url": "https://rockpapperscissorslizardspockn.surge.sh/"
+    },
+    {
+      "title": "IP Address Tracker app in react. Using the IP Geolocation API by IPify and LeafletJS to generate the map.",
+      "image": "./resources/images/projects/IPAddress.PNG",
+      "display": "IP Address Tracker app in react",
+      "url": "https://ipaddresses-vest.surge.sh/"
+    },
+    {
+      "title": "Comments section in react",
+      "image": "./resources/images/projects/CommentsProject1.PNG",
+      "display": "Comments section",
+      "url": "https://plausible-comments.surge.sh/"
+    },
+    {
+      "title": "Aircraft rotation project in react",
+      "image": "./resources/images/projects/AircraftsPrj.PNG",
+      "display": "Aircraft rotation project",
+      "url": "http://rita-aircrafts.surge.sh/"
+    }
+  ]
+}

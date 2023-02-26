@@ -10,13 +10,18 @@ const Icon = ({ name, ...props }) => {
   if (!SvgIcon) {
     throw Error(`Icon ${name} not found`);
   }
-  return <SvgIcon {...props} />;
+  return (
+    <div title={name}>
+      <SvgIcon {...props} />
+    </div>
+  );
 };
 
 Icon.displayName = "Icon";
 
 Icon.defaultProps = {
   color: "inherit",
+  title: "icon",
 };
 
 export default Icon;

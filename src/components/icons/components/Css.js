@@ -7,6 +7,7 @@ const SvgAdd = ({ width, height, size, color }) => (
     width={size || width}
     height={size || height}
     color={color}
+    title="CSS"
   >
     <path d="M4.5 21L3 2.25H21L19.5 21L12 23.25L4.5 21Z" fill="#1172B8" />
     <path d="M19.5 3.75H12V22.125L18 20.25L19.5 3.75Z" fill="#33AADD" />
@@ -20,5 +21,6 @@ const SvgAdd = ({ width, height, size, color }) => (
 SvgAdd.defaultProps = {
   width: "24",
   height: "24",
+  title: "CSS",
 };
 export default SvgAdd;
