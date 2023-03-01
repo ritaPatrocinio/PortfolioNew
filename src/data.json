@@ -1,5 +1,5 @@
 {
-  "description": "Hi! I'm Rita, a front-end developer. I’m proficient in web development technologies including HTML, CSS, JavaScript/ES6, ReactJS, and Git. I have strong communication skills and a good ability to communicate technical issues and solutions, as well as excellent problem-solving skills and self-motivation to prioritize and manage workload. Find some of my recent personal projects bellow!",
+  "description": "Hi! I'm Rita, a front-end developer. I’m proficient in web development technologies such as JavaScript/ES6, Typescript, ReactJS, Redux, CSS, HTML, and Git. I have strong communication skills and a good ability to communicate technical issues and solutions, as well as excellent problem-solving skills and self-motivation to prioritize and manage workload. I'm always striving to develop my skills further and to learn new things! Find some of my recent personal projects bellow!",
   "projects": [
     {
       "title": "E-commerce website built with nextjs and react, using stripe to process payments!",
@@ -30,6 +30,12 @@
       "image": "./resources/images/projects/Graphs.PNG",
       "display": "Dynamic table and graph in react.",
       "url": "https://tablegraph.surge.sh/"
+    },
+    {
+      "title": "Reddit page using react, redux and the reddit API.",
+      "image": "./resources/images/projects/redditMin.png",
+      "display": "Reddit Minimal",
+      "url": "http://fair-position_redditminimal.surge.sh/"
     },
     {
       "title": "Rock Papper Scissors (Lizard Spock) game in react.",
