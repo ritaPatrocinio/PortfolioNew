@@ -41,20 +41,26 @@ function App() {
           />
           <p>{data.description}</p>
         </div>
-        <h2 id="Projects" className={`projects ${!sun && "moon"}`}>
-          Projects
-        </h2>
-        <div class="cardProject">
-          {data.projects.map(({ title, image, display, url }) => (
-            <figure>
-              <figcaption className={!sun && "moon"}>{title}</figcaption>
-              <a target="blank" href={url}>
-                <img src={require(`${image}`)} alt={display} title={display} />
-              </a>
-            </figure>
-          ))}
+        <div className="projects">
+          <h2 id="Projects" className={`projects ${!sun && "moon"}`}>
+            Projects
+          </h2>
+          <div class="cardProject">
+            {data.projects.map(({ title, image, display, url }) => (
+              <figure key={title}>
+                <figcaption className={!sun && "moon"}>{title}</figcaption>
+                <a target="blank" href={url}>
+                  <img
+                    src={require(`${image}`)}
+                    alt={display}
+                    title={display}
+                  />
+                </a>
+              </figure>
+            ))}
+          </div>
         </div>
-        <div id="Skills" class="skills">
+        <div id="Skills" className="skills">
           <h2 className={!sun && "moon"}>Skills</h2>
           <div className="flex">
             <Icon name="React" size={60} />
@@ -69,10 +75,10 @@ function App() {
             <Icon name="Python" size={70} />
           </div>
         </div>
-        <div id="Contact" class="contact">
+        <div id="Contact" className="contact">
           <h2 className={!sun && "moon"}>Contact</h2>
           <p class="getInContact">Get in touch with me!</p>
-          <div className="flex">
+          <div className="flex" style={{ marginLeft: 28 }}>
             <a
               href="mailto:rita.patrocinio@live.com"
               target="blank"

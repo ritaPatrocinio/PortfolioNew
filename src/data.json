@@ -58,8 +58,7 @@
     {
       "title": "Aircraft rotation project in react",
       "image": "./resources/images/projects/AircraftsPrj.PNG",
-      "display": "Aircraft rotation project",
-      "url": "http://rita-aircrafts.surge.sh/"
+      "display": "Aircraft rotation project"
     }
   ]
 }
