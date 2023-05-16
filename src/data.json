@@ -1,6 +1,12 @@
 {
-  "description": "Hi! I'm Rita, a front-end developer. I’m proficient in web development technologies such as JavaScript/ES6, Typescript, ReactJS, Redux, CSS, HTML, and Git. I have strong communication skills and a good ability to communicate technical issues and solutions, as well as excellent problem-solving skills and self-motivation to prioritize and manage workload. I'm always striving to develop my skills further and to learn new things! Find some of my recent personal projects bellow!",
+  "description": "Hi! I'm Rita, a front-end developer. I’m proficient in web development technologies such as JavaScript/ES6, Typescript, ReactJS, Redux, CSS, and HTML. I have strong communication skills and a good ability to communicate technical issues and solutions, as well as excellent problem-solving skills and self-motivation to prioritize and manage workload. I'm always striving to develop my skills further and to learn new things! I'm currently learning NodeJS and Express. Find some of my recent personal projects bellow!",
   "projects": [
+    {
+      "title": "Real-Time Data Syncing Chat Application with Supabase and Next.js",
+      "image": "./resources/images/projects/supabase-chat.png",
+      "display": "Chat Application",
+      "url": "https://d7d59f20.supabase-chat-server-a11.pages.dev/#"
+    },
     {
       "title": "E-commerce website built with nextjs and react, using stripe to process payments!",
       "image": "./resources/images/projects/Ecomm.png",
