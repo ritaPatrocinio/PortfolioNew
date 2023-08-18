@@ -36,7 +36,7 @@ function App() {
         <div style={{ display: "flex" }}>
           <img
             id="ProfilePhoto"
-            src={require("./resources/images/thumbnail_IMG_20191103_212734_607.jpg")}
+            src={require("./resources/images/ProfilePhoto.jpg")}
             alt="Profile"
           />
           <p>{data.description}</p>
@@ -69,6 +69,8 @@ function App() {
             <Icon name="TypeScript" size={60} />
             <Icon name="CSS" size={70} />
             <Icon name="HTML" size={70} />
+            <Icon name="NodeJs" size={70} />
+            <Icon name="ExpressJs" size={70} />
             <Icon name="NextJS" size={70} />
             <Icon name="Git" size={70} />
             <Icon name="Figma" size={70} />

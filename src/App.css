@@ -1,3 +1,7 @@
+:root {
+  --moon-bg-color: #1c1e21;
+  /* #000937 */
+}
 * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -10,7 +14,7 @@
 }
 
 .AppMoon {
-  background-color: #000937;
+  background-color: var(--moon-bg-color);
   padding: 1% 6%;
   color: #fce4ec;
 }
@@ -55,13 +59,13 @@ figcaption {
   flex-direction: column;
 }
 button {
-  border: 1px solid #000937;
+  border: 1px solid var(--moon-bg-color);
   border-radius: 5px;
   background: #fafafa;
   padding: 5% 10%;
   font-family: monospace;
   cursor: pointer;
-  color: #000937;
+  color: var(--moon-bg-color);
   font-size: 90%;
 }
 #Light {
@@ -245,8 +249,8 @@ h1 {
   height: auto;
   margin: 1% 0 2% 0;
   border-radius: 5px;
-  border: 4px solid #000937;
-  /* box-shadow: 2px 2px #000937; */
+  border: 4px solid var(--moon-bg-color);
+  /* box-shadow: 2px 2px var(--moon-bg-color); */
 }
 figure {
   max-width: 550px;

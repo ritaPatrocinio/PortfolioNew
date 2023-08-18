@@ -13,3 +13,5 @@ export { default as Sun } from "./components/Sun";
 export { default as Moon } from "./components/Moon";
 export { default as Figma } from "./components/Figma";
 export { default as NextJS } from "./components/NextJS";
+export { default as NodeJs } from "./components/NodeJs";
+export { default as ExpressJs } from "./components/ExpressJs";
